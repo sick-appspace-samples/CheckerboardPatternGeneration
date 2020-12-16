@@ -26,7 +26,7 @@
 print("AppEngine Version: ".. Engine.getVersion())
 
 -- Creating viewer
-local viewer = View.create()
+local viewer = View.create("viewer2D1")
 
 -- Delay for visualization purposes
 local DELAY = 1000
